@@ -1,0 +1,163 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+
+    .background{
+
+        background: rgba(0, 0, 0, 0.7) url("images/listennowbackground.jpg");
+        background-size: cover;
+        background-blend-mode: darken;
+    
+    }
+
+    .all{
+
+        border: 3px solid rgb(255, 255, 255);
+        
+    }
+
+
+.first {
+
+    
+
+    
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    
+    
+}
+
+.heading{
+
+    color: white;
+    font-size: 50px;
+   
+   
+}
+
+.second{
+
+    background-color: rgba(0, 0, 0, 0.568);
+    border: 3px solid black;
+}
+
+.fifth{
+    text-align: center;
+
+    padding: 0.2%;
+    color: whitesmoke;
+    
+}
+
+.fifth a{
+    
+
+    padding: 0.6%;
+    vertical-align: -12px;
+    
+    
+
+}
+
+.align{
+
+    display: block;
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.third{
+
+
+    display: flex;
+    text-decoration: none;
+    justify-content: left;
+    margin-left: 2.5%;
+}
+
+.third img{
+
+
+    width: 145px;
+    margin-top: 5px;
+    border-radius: 15%;
+}
+
+.fourth{
+
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background: url("images/gudbackground.jpg");
+    background-blend-mode: darken;
+    border: 3px solid black;
+
+
+}
+
+.fourth iframe{
+
+    width: 734px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.eleventh{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: burlywood;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    padding: 45px;
+    border: 3px solid black;
+}
+
+
+
+.big{
+
+    font-size: 1cm;
+}
+
+.small{
+
+
+    margin: 2%;
+}
+
+
+@media only screen and (max-width: 760px ){
+
+    .fourth iframe {
+        width: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 281px;
+
+    }
+
+
+
+
+
+
+
+
+}

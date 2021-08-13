@@ -1,0 +1,257 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+.background{
+
+    background: rgba(0, 0, 0, 0.7) url("images/Background.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+.all{
+
+    border: 3px solid rgb(255, 255, 255);
+    
+}
+
+.first{
+
+    height: 135px;
+    position: sticky;
+
+
+}
+
+.second{
+
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+
+
+
+}
+
+.third{
+
+    background-color: rgb(0, 0, 0);
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    border: 2px solid rgba(255, 255, 255, 0.267);
+}
+
+.fourth{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+
+.fifth{
+    text-align: center;
+
+    padding: 0.2%;
+    color: whitesmoke;
+
+}
+
+.fifth a{
+    
+
+    padding: 0.6%;
+    vertical-align: -12px;
+    
+    
+
+}
+
+.fifth a:hover{
+
+    color: dimgrey;
+}
+
+.align{
+
+    display: block;
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.sixth{
+   
+    text-align: center;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+    background: url("images/darkmusicwallpaper.jpg");
+
+}
+
+.sixth img{
+
+
+
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+.seventh{
+    background-color: rgba(0, 0, 0, 0.699);
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column-reverse;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+}
+
+.font{
+
+    
+    color: whitesmoke;
+
+
+}
+
+.eighth{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+.ninth{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.tenth{
+
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.5cm;
+    margin-top: 21px;
+    margin-bottom: 19px;
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+.tenth a{
+
+    color: dimgrey;
+
+    padding: 0px;
+    padding-top: 23px;
+    display: block;
+    margin: -6px;
+}
+
+.tenth a:hover{
+
+    color: dimgrey;
+}
+
+
+.tenth img{
+
+
+    border: 5px solid black;
+    border-radius: 15%;
+}
+
+.eleventh{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: burlywood;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    padding: 45px;
+    border: 3px solid black;
+}
+
+
+
+.big{
+
+    font-size: 1cm;
+}
+
+.small{
+
+
+    margin: 2%;
+}
+
+
+@media only screen and (max-width: 426px ){
+
+
+.sixth img {
+    border: 1px solid white;
+    border-radius: 10%;
+    width: 224px;
+    height: 286px;
+
+    
+}
+
+}
+
+
+@media only screen and (max-width: 311px ){
+
+    .first {
+        height: 187px;
+        position: sticky;
+    }
+
+
+    .third {
+        background-color: rgb(0, 0, 0);
+        padding-top: 0.2%;
+        padding-bottom: 0.2%;
+       
+        border: 2px solid rgba(255, 255, 255, 0.267);
+    }
+
+
+    .sixth img {
+        border: 1px solid white;
+        border-radius: 10%;
+        width: 224px;
+        height: 286px;
+    }
+
+    
+    
+    }
+    
+    
